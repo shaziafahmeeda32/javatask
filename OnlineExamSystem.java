@@ -524,7 +524,7 @@ public class DataLoader {
 
         // sample exam
         Exam exam = new Exam("Java Basics", 30);
-        Question q1 = new Question("What is JVM?", 1); // assume option 1 is correct
+        Question q1 = new Question("What is JVM?", 1); 
         q1.getOptions().add(new Option("Java Variable Machine"));
         q1.getOptions().add(new Option("Java Virtual Machine"));
         q1.getOptions().add(new Option("Just Very Much"));
@@ -540,3 +540,4 @@ public class DataLoader {
     }
 }
                  
+
